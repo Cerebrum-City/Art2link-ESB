@@ -23,7 +23,7 @@ gh repo create "${FULL}" \
 
 echo "==> Placeholder substitution"
 # Replace placeholders across the scaffold before the first commit.
-grep -rl 'Cerebrum-City/art2link-support' . | xargs sed -i.bak "s|Cerebrum-City/art2link-support|${FULL}|g"
+grep -rl 'Cerebrum-City/Art2link-ESB' . | xargs sed -i.bak "s|Cerebrum-City/Art2link-ESB|${FULL}|g"
 find . -name '*.bak' -delete
 echo "    Remember to also replace art2link.com and Art2link ESB by hand."
 
@@ -40,7 +40,6 @@ gh api -X PATCH "repos/${FULL}" \
   -F has_discussions=true \
   -F has_wiki=false \
   -F has_projects=false \
-  -F allow_forking=true \
   --silent
 
 echo "==> Enabling private vulnerability reporting"

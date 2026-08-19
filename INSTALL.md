@@ -26,7 +26,7 @@ All placeholders are already substituted for Cerebrum-City / Art2link ESB:
 
 | Was | Now |
 | --- | --- |
-| `YOUR-ORG/YOUR-REPO` | `Cerebrum-City/art2link-support` |
+| `YOUR-ORG/YOUR-REPO` | `Cerebrum-City/Art2link-ESB` |
 | `https://docs.YOURDOMAIN.com` | `https://www.art2link.com/documentation/` |
 | `https://YOURDOMAIN.com/contact` | `https://www.art2link.com/contact/` |
 | `security@YOURDOMAIN.com` | `security@art2link.com` |
