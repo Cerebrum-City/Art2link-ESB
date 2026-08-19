@@ -1,0 +1,33 @@
+name: Documentation problem
+description: Something in the docs is wrong, missing, or unclear
+title: "[Docs]: "
+type: Task
+labels: ["needs-triage", "area/docs"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: "https://docs.example.com/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Factually incorrect
+        - Missing information
+        - Unclear or ambiguous
+        - Broken link or example
+        - Out of date for current version
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong, and what would be correct?
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or how-to
+    url: https://github.com/Cerebrum-City/art2link-support/discussions/categories/q-a
+    about: Ask here. Questions opened as issues will be converted to Discussions.
+
+  - name: Feature request or idea
+    url: https://github.com/Cerebrum-City/art2link-support/discussions/categories/ideas
+    about: Propose and vote on new capabilities.
+
+  - name: Documentation
+    url: https://www.art2link.com/documentation/
+    about: Guides, reference, release notes, and known issues.
+
+  - name: Report a security vulnerability
+    url: https://github.com/Cerebrum-City/art2link-support/security/advisories/new
+    about: Report privately. Never open a public issue for a vulnerability.
+
+  - name: Commercial or licensing enquiry
+    url: https://www.art2link.com/contact/
+    about: Pricing, licensing, migration services, and paid support.

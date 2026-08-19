@@ -1,0 +1,97 @@
+# Labels as code. Synced by .github/workflows/labels-sync.yml
+# Keep this list short. Structured data belongs in org-level Issue fields,
+# not in labels.
+
+# --- Triage state -----------------------------------------------------------
+- name: needs-triage
+  color: "ededed"
+  description: Not yet reviewed by a maintainer
+
+- name: needs-info
+  color: "d4c5f9"
+  description: Waiting on the reporter for more detail
+
+- name: needs-repro
+  color: "d4c5f9"
+  description: Cannot reproduce yet with the information provided
+
+- name: confirmed
+  color: "0e8a16"
+  description: Reproduced and accepted. Creates an Azure DevOps work item.
+
+- name: in-progress
+  color: "1d76db"
+  description: Being worked on by engineering
+
+- name: fixed-pending-release
+  color: "5319e7"
+  description: Fixed in source, not yet shipped
+
+# --- Resolutions ------------------------------------------------------------
+- name: resolution/duplicate
+  color: "cfd3d7"
+  description: Already tracked in another issue
+
+- name: resolution/not-a-bug
+  color: "cfd3d7"
+  description: Working as designed. Consider converting to a Discussion.
+
+- name: resolution/wontfix
+  color: "cfd3d7"
+  description: Acknowledged but will not be addressed
+
+- name: resolution/stale
+  color: "cfd3d7"
+  description: Closed for inactivity. Comment to reopen.
+
+# --- Areas (mirror the dropdown in bug_report.yml) --------------------------
+- name: area/console
+  color: "fbca04"
+  description: Console and visual designer
+- name: area/schemas
+  color: "fbca04"
+- name: area/maps
+  color: "fbca04"
+  description: XSLT 3.0 maps
+- name: area/itineraries
+  color: "fbca04"
+  description: Orchestration and itinerary execution
+- name: area/pipelines
+  color: "fbca04"
+- name: area/adapters
+  color: "fbca04"
+  description: AS2, SFTP, REST, SOAP, MQ and other protocol adapters
+- name: area/edi
+  color: "fbca04"
+  description: X12 and EDIFACT
+- name: area/hl7-fhir
+  color: "fbca04"
+- name: area/tracking
+  color: "fbca04"
+  description: Tracking, tracing and monitoring
+- name: area/runtime
+  color: "fbca04"
+  description: Messaging and runtime execution
+- name: area/deployment
+  color: "fbca04"
+  description: Deployment and configuration
+- name: area/migration-ai
+  color: "fbca04"
+  description: BizTalk migration tooling
+- name: area/security
+  color: "fbca04"
+- name: area/docs
+  color: "fbca04"
+
+# --- Flags ------------------------------------------------------------------
+- name: regression
+  color: "b60205"
+  description: Worked in a previous version
+
+- name: commercial
+  color: "006b75"
+  description: Reporter is a customer or prospect. Follow up off-tracker.
+
+- name: good-first-answer
+  color: "7057ff"
+  description: A community member could likely answer this
