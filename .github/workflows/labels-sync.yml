@@ -25,4 +25,4 @@ jobs:
           # Set to true for a dry run that only prints the diff.
           dry-run: false
           # Set to true once you are happy, to delete labels not in the file.
-          skip-delete: true
+          skip-delete: false
